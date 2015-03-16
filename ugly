@@ -1,0 +1,27 @@
+//ma ausalt ei mäleta, kuidas käib, aga ma kirjutasin veits koodi :D
+
+import java.io.*;
+import java.util.*;
+
+public class Kaardid {
+	
+	
+	
+	public static void main(String[] args) throws IOException{
+		
+		String rida = "";
+		Scanner s = new Scanner(new File("C:/Users/RolandR/oop/PROJEKT/src/Vastused.txt"));
+		//see scanneri asju sul erinev ju, eks!
+		
+		List<String> Vastused = new ArrayList<String>();
+		
+		while (s.hasNext()){
+			rida = s.next();
+			Vastused.add(rida);
+		}
+	s.close();
+	
+	
+	
+	}	
+}	
